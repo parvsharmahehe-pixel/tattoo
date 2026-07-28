@@ -103,7 +103,7 @@ function Home() {
 
         <div className="relative z-10 flex h-full flex-col justify-end pb-20 md:pb-28">
           <div className="mx-auto w-full max-w-[1400px] px-6 md:px-10">
-            <p className="eyebrow mt-12 md:mt-16 motion-safe:animate-in motion-safe:fade-in motion-safe:slide-in-from-bottom-4 motion-safe:duration-700">
+            <p className="eyebrow mt-12 md:mt-16 motion-safe:animate-in motion-safe:fade-in motion-safe:slide-in-from-bottom-4 motion-safe:duration-700 hidden">
               Sarojini Nagar · New Delhi
             </p>
             <h1 className="font-display mt-6 text-[3.4rem] sm:text-8xl md:text-[9rem] lg:text-[11rem] leading-[0.9] motion-safe:animate-in motion-safe:fade-in motion-safe:slide-in-from-bottom-6 motion-safe:duration-1000">
