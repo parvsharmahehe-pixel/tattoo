@@ -96,13 +96,14 @@ function Home() {
           className="absolute inset-0 h-full w-full object-cover motion-safe:animate-[hero-zoom_18s_ease-out_forwards]"
           fetchPriority="high"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-ink/85 via-ink/40 to-ink" />
+        <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(5,5,5,.90)_0%,rgba(5,5,5,.66)_38%,rgba(5,5,5,.32)_68%,rgba(5,5,5,.60)_100%)]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-ink/55 via-transparent to-ink/95" />
         <div className="absolute inset-0 grain" />
         <style>{`@keyframes hero-zoom { from { transform: scale(1.08) } to { transform: scale(1) } }`}</style>
 
         <div className="relative z-10 flex h-full flex-col justify-end pb-20 md:pb-28">
           <div className="mx-auto w-full max-w-[1400px] px-6 md:px-10">
-            <p className="eyebrow motion-safe:animate-in motion-safe:fade-in motion-safe:slide-in-from-bottom-4 motion-safe:duration-700">
+            <p className="eyebrow mt-12 md:mt-16 motion-safe:animate-in motion-safe:fade-in motion-safe:slide-in-from-bottom-4 motion-safe:duration-700">
               Sarojini Nagar · New Delhi
             </p>
             <h1 className="font-display mt-6 text-[3.4rem] sm:text-8xl md:text-[9rem] lg:text-[11rem] leading-[0.9] motion-safe:animate-in motion-safe:fade-in motion-safe:slide-in-from-bottom-6 motion-safe:duration-1000">

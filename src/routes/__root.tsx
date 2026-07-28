@@ -7,7 +7,7 @@ import {
   HeadContent,
   Scripts,
 } from "@tanstack/react-router";
-import { type ReactNode } from "react";
+import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 
@@ -36,6 +36,9 @@ function NotFoundComponent() {
 function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
   console.error(error);
   const router = useRouter();
+  useEffect(() => {
+  }, [error]);
+
   return (
     <div className="flex min-h-screen items-center justify-center bg-background px-4">
       <div className="max-w-md text-center">
@@ -83,8 +86,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Sid Ink Tattoo is a tattoo and piercing studio in Sarojini Nagar Market, New Delhi offering black, colour and 3D tattoos, piercings, temporary tattoos and event services." },
       { property: "og:description", content: "Sid Ink Tattoo is a tattoo and piercing studio in Sarojini Nagar Market, New Delhi offering black, colour and 3D tattoos, piercings, temporary tattoos and event services." },
       { name: "twitter:description", content: "Sid Ink Tattoo is a tattoo and piercing studio in Sarojini Nagar Market, New Delhi offering black, colour and 3D tattoos, piercings, temporary tattoos and event services." },
-      { property: "og:image", content: "https://sidinktattooz.com/favicon.ico" },
-      { name: "twitter:image", content: "https://sidinktattooz.com/favicon.ico" },
+      { property: "og:image", content: "https://sidinktattooz.com/images/studio-hero.jpeg" },
+      { name: "twitter:image", content: "https://sidinktattooz.com/images/studio-hero.jpeg" },
     ],
     links: [
       {
