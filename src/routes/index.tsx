@@ -89,12 +89,12 @@ function Home() {
       {/* HERO */}
       <section className="relative h-dvh min-h-[640px] w-full overflow-hidden">
         <img
-          src="/images/sid-ink-hero-final.webp"
+          src="/images/sid-ink-hero-clean.webp"
           alt="Sid Ink Tattoo studio in Sarojini Nagar, New Delhi"
           className="absolute inset-0 h-full w-full object-cover motion-safe:animate-[hero-zoom_18s_ease-out_forwards]"
           fetchPriority="high"
         />
-        <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(5,5,5,.36)_0%,rgba(5,5,5,.18)_45%,rgba(5,5,5,.08)_75%,rgba(5,5,5,.20)_100%)]" />
+        <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(5,5,5,.88)_0%,rgba(5,5,5,.70)_36%,rgba(5,5,5,.28)_68%,rgba(5,5,5,.42)_100%)]" />
         <div className="absolute inset-0 bg-gradient-to-b from-ink/55 via-transparent to-ink/95" />
         <div className="absolute inset-0 grain" />
         <style>{`@keyframes hero-zoom { from { transform: scale(1.08) } to { transform: scale(1) } }`}</style>
