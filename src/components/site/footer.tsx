@@ -83,6 +83,12 @@ export function SiteFooter() {
           </div>
         </div>
       </div>
-    </footer>
+    <div className="vince-credit" style={{ textAlign: "center", fontSize: "11px", letterSpacing: "0.08em", opacity: 0.55, padding: "14px 16px 18px" }}>
+  © 2026 Sid Ink Tattoo · Website made by{" "}
+  <a href="https://www.instagram.com/vinceandco.in" target="_blank" rel="noopener noreferrer" style={{ color: "inherit", textDecoration: "none", borderBottom: "1px solid currentColor" }}>
+    Vince &amp; Co
+  </a>
+</div>
+</footer>
   );
 }

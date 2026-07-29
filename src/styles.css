@@ -158,11 +158,3 @@
     background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/></filter><rect width='100%25' height='100%25' filter='url(%23n)' opacity='0.6'/></svg>");
   }
 }
-
-/* Sid Ink header collision safety */
-header { isolation: isolate; }
-header nav { min-width: 0; }
-header a[href="/"], header a[href="#top"] { flex-shrink: 0; }
-@media (min-width: 768px) and (max-width: 1180px) {
-  header nav { gap: clamp(.75rem, 1.4vw, 1.5rem) !important; }
-}
